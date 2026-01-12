@@ -1,0 +1,128 @@
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+}
+.up{
+    background-color: #faf2e9;
+}
+.navbar{
+    max-width: 1452;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 102px;
+}
+.navbar .a h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+.navbar .b ul li{
+    list-style: none;
+    font-size: 18px;
+    line-height: 26px;
+    list-style: none;
+}
+.navbar .b ul li a{
+    text-decoration: none;
+    color: #131313;
+}
+.navbar .b ul{
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+}
+#head .a{
+    max-width: 865px;
+    margin: 0 auto;
+    text-align: center;
+}
+#head .a h1{
+    color: #131313;
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#head .a p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+#head .a button{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #FF900E;
+    padding: 21px 25px;
+    cursor: pointer;
+    margin-bottom: 42px;
+}
+#head .a button:hover{
+    background-color: brown;
+}
+#head .b{
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-bottom: 45px;
+    border-radius: 8px;
+}
+#mid-container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+#mid-container .content{
+    display: flex;
+    margin-top: 85px;
+    margin-bottom: 130px;
+}
+#mid-container .content .b{
+    margin: auto;
+    max-width: 538px;
+}
+#mid-container .content .b h1{
+    font-size: 45px;
+    margin-bottom: 32px;
+}
+
+#mid-container .content .b h1 .f{
+    color: #727272;
+}
+#mid-container .content .b h1 .g{
+    color: #FF900E;
+}
+
+#mid-container .content .b p{
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+#mid-container .content .b button{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #FF900E;
+    padding: 21px 25px;
+    cursor: pointer;
+}
+#mid-container .content .b button:hover{
+    background-color: brown;
+}
+
+#mid-container .content .a{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    margin-right: 73px;
+}
