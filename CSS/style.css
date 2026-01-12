@@ -183,6 +183,34 @@
     font-size: 1rem;
     line-height: 26px;
 }
+
+/* start */
+#last-container .b .g {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.experience-badge {
+    position: absolute;
+    background-color: #FF900E;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    bottom: -50px;
+    left: -50px;
+}
+.experience-badge h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+.experience-badge p {
+    font-size: 1.25rem;
+    margin: 0;
+}
+/* last */
+
 #lasi-mid{
     max-width: 1440px;
     margin: 0 auto;
