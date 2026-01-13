@@ -6,6 +6,7 @@
     max-width: 1920px;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .up{
     background-color: #faf2e9;
@@ -250,6 +251,7 @@
     text-align: center;
     border: 2px solid #FF900E;
     cursor: pointer;
+    border-radius: 8px;
 }
 #last .a:hover{
     background-color: rgb(177, 219, 247);
@@ -421,12 +423,15 @@ footer p{
         height: 450px;
         max-width: 500px;
     }
-    #last-container .b .g img{
-        padding-left: 80px;
+    #last-container .b .g{
+        max-width: 650px;
     }
     #last-container .b .g img{
-        width: 450px;
-        height: 400px;
+        /* padding-left: 80px; */
+    }
+    #last-container .b .g img{
+        width: 650px;
+        height: 500px;
         width: 100%;
     }
     .experience-badge h2 {
@@ -458,13 +463,156 @@ footer p{
         margin-bottom: 30px;
     }
 }
-@media screen and (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    *{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     .navbar{
-        /* width: 100%; */
         margin: 0 auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        /* grid-template-rows: 1fr 1fr; */
     }
+    .navbar .a h1{
+        font-size: 2.25rem;
+        margin-bottom: 30px;
+    }
+    .navbar .b ul{
+        text-align: center;
+        width: 400px;
+        margin-bottom: 60px;
+    }
+    .navbar .b{
+        justify-content: center;
+        margin: 0 auto;
+    }
+    #head .a h1{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    #head .a p{
+        padding: 0 40px;
+    }
+    #head .a button{
+        font-size: 1rem;
+        padding: 15px 18px;
+    }
+    #mid-container .content{
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+    #mid-container .content .a{
+        margin-bottom: 20px;
+        padding-left: 70px;
+    }
+    #mid-container .content .b{
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    #mid-container .content .b button{
+        font-size: 1rem;
+        padding: 15px 19px;
+    }
+    #lasi-mid{
+        display: flex;
+        justify-content: center;
+    }
+    #lasi-mid .k{
+        /* margin-left: 0; */
+        width: 400px;
+        text-align: center;
+    }
+    #lasi-mid .k p{
+        width: 400px;
+    }
+    #last .a h2{
+        font-size: 2rem;
+    }
+    #last .a p{
+        font-size: 1rem;
+    }
+    #last .a{
+        padding: 20px 10px 34px 10px;
+        margin: 30px;
+    }
+    #last{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #gg {
+        max-width: 765px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    #gg .p{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        padding: 20px;
+        margin-left: 60px;
+    }
+    #last-container{
+        flex-direction: column;
+        max-width: 765px;
+    }
+    #last-container .a{
+        width: 650px;
+    }
+    #last-container .a .c{
+        margin-left: 20px;
+        width: 650px;
+    }
+    #last-container .a .c h1{
+        font-size: 2rem;
+        padding-right: 200px;
+    }
+    #last-container .a .c p{
+        padding-right: 20px;
+    }
+    #last-container .a .d{
+        max-width: 650px;
+    }
+    #last-container .b{
+        margin-top: 50px;
+        max-width: 650px;
+        height: 420px;
+    }
+    #last-container .b .g{
+        margin-left: 150px;
+    }
+    #last-container .b .g img{
+        padding-left: 80px;
+        width: 400px;
+        height: 400px;
+    }
+    .experience-badge h2 {
+        font-size: 1.25rem;
+        margin: 0;
+    }
+    .experience-badge p {
+        font-size: 1rem;
+        margin: 0;
+    }
+    .experience-badge{
+        padding: 15px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+    footer{
+        margin-top: 60px;
+        margin-bottom: 120px;
+    }
+    footer p{
+        margin: 0 auto;
+        width: 650px;
+        padding: 30px;
+        font-size: 1rem;
+    }
+
 }
