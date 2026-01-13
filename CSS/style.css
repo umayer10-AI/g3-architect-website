@@ -425,15 +425,17 @@ footer p{
     }
     #last-container .b{
         margin-top: 50px;
-        height: 450px;
-        max-width: 500px;
+        margin: 0 auto;
+        height: 530px ;
     }
     #last-container .b .g{
-        max-width: 650px;
+        max-width: 500px;
+        margin-top: 50px;
+        margin-left: 120px;
     }
     #last-container .b .g img{
-        width: 650px;
-        height: 500px;
+        width: 450px;
+        height: 450px;
         width: 100%;
     }
     .experience-badge h2 {
@@ -446,8 +448,8 @@ footer p{
     }
     .experience-badge{
         padding: 15px;
-        margin-left: 90px;
-        margin-bottom: 10px;
+        margin-left: 40px;
+        margin-bottom: 20px;
     }
     #lasi-mid{
         max-width: 576px;
@@ -458,7 +460,7 @@ footer p{
         text-align: center;
     }
     #lasi-mid .k p{
-        padding-left: 95px;
+        width: 400px;
     }
     #small{
         padding: 20px;
