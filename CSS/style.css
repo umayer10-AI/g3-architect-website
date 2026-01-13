@@ -30,6 +30,10 @@
     font-size: 18px;
     line-height: 26px;
     list-style: none;
+    cursor: pointer;
+}
+.navbar .b ul li:hover{
+    background-color: #FF900E;
 }
 .navbar .b ul li a{
     text-decoration: none;
@@ -147,7 +151,7 @@
     height: 982px;
 }
 #last-container .a{
-    max-width: 510px;
+    max-width: 530px;
     margin-right: 55px;
     margin: 0 auto;
 }
@@ -156,7 +160,8 @@
     font-weight: bold;
     color: #131313;
     margin-bottom: 24px;
-    margin-left: 21px;
+    border-left: 5px solid #FF900E;
+    padding-left:20px;
     max-width: 468px;
 }
 #last-container .a .c p{
@@ -172,6 +177,10 @@
     background-color: #FFFFFF;
     border-radius: 8px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+#last-container .a .d:hover{
+    background-color: aquamarine;
 }
 #last-container .a .d h3{
     font-size: 1.25rem;
@@ -240,6 +249,10 @@
     padding: 46px 36px 60px 36px;
     text-align: center;
     border: 2px solid #FF900E;
+    cursor: pointer;
+}
+#last .a:hover{
+    background-color: rgb(177, 219, 247);
 }
 #last .a h2{
     font-size: 2.9rem;
@@ -276,6 +289,7 @@
 #gg .p{
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 footer{
     max-width: 1440px;
