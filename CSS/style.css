@@ -308,19 +308,21 @@ footer p{
 }
 
 @media screen and (max-width: 576px) {
-    .navbar {
-    width: 80%;
-    margin: 0 auto;
-    display: grid;
-    flex-direction: column;
-    gap: 30px;
-    width: 100%;
-    justify-content: center;
-    margin-bottom: 30px;
+    *{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .navbar .a h1{
         font-size: 2.25rem;
-        text-align: center;
+        margin-bottom: 30px;
     }
     .navbar .b ul{
         text-align: center;
@@ -336,7 +338,7 @@ footer p{
         margin-bottom: 2px;
     }
     #head .a p{
-        padding: 20px;
+        padding: 20px 40px;
         margin-bottom: 5px;
     }
     #head .a button{
@@ -374,7 +376,7 @@ footer p{
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
         padding: 20px;
-        margin-left: 60px;
+        margin-left: 50px;
     }
     footer{
         margin-bottom: 60px;
@@ -410,15 +412,16 @@ footer p{
     }
     #last-container .a .c h1{
         font-size: 2rem;
-        padding-right: 200px;
     }
     #last-container .a .c p{
         margin-left: 25px;
         padding-right: 20px;
     }
     #last-container .a .d{
-        margin-left: 55px;
+        /* margin-left: 55px; */
         max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
     #last-container .b{
         margin-top: 50px;
@@ -427,9 +430,6 @@ footer p{
     }
     #last-container .b .g{
         max-width: 650px;
-    }
-    #last-container .b .g img{
-        /* padding-left: 80px; */
     }
     #last-container .b .g img{
         width: 650px;
